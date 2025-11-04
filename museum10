@@ -1,9 +1,0 @@
-import streamlit as st
-import requests
-
-st.title("🎨 Artwork Generator")
-
-prompt = st.text_input("설명 입력")
-if st.button("생성"):
-    response = requests.post("https://api.example.com/generate", json={"prompt": prompt})
-    st.image(response.json()["image_url"])
