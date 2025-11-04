@@ -1,5 +1,0 @@
-project/
-│
-├── api.py        # FastAPI로 만든 백엔드 (이미지 설명 생성)
-├── app.py        # Streamlit 프론트엔드 (이미지 업로드 + 결과 표시)
-└── requirements.txt  # 필요한 라이브러리 목록
